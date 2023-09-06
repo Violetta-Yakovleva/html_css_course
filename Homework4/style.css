@@ -33,13 +33,15 @@ img {
 }
 
 header {
+    padding: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .conteiner {
-    max-width: 1319px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -122,5 +124,4 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 1240px;
 }
