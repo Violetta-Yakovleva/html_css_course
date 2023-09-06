@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('./font/Gilroy-Bold.woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('./font/Gilroy-Medium.woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url('./font/Gilroy-Semibold.woff2');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: #FFF;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.conteiner {
+    max-width: 1319px;
+    margin: 0 auto;
+}
+
+.content {
+    margin-top: 84px;
+}
+
+.navigation {
+    width: 533px;
+    line-height: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__link {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.navigation__link-home {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.content h1 {
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-weight: 400;
+    width: 522px;
+    margin-bottom: 17px;
+    margin-right: 41px;
+}
+
+.content p {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-weight: 400;
+    width: 466px;
+    margin-bottom: 37px;
+}
+
+.btn__start-now {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.20);
+    border: none;
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 72px;
+    margin-bottom: 259px;
+}
+
+.btn__watch-video {
+    color: #AAA;
+    background: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1240px;
+}
